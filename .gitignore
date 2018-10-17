@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs/LoginSecure/v15
+/.vs/config
+/LoginSecure/bin
+/LoginSecure/obj/Debug
