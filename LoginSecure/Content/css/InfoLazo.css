@@ -1,0 +1,112 @@
+﻿body {
+    background-color: #f8f7f7;
+    padding: 0 !important;
+}
+
+.wrapper {
+    background-color: white;
+    padding: 0 !important;
+}
+
+.info-lazo div h2 {
+    color: blue;
+}
+
+.info-lazo ul {
+    line-height: 1.75;
+    font-size: 15px !important;
+}
+
+
+
+.info-lazo img {
+    margin: auto;
+    width: 80%;
+}
+
+div.typical-customer {
+    margin-top: 5%;
+    font-size:15px;
+}
+
+.typical-customer div#phone-notifi {
+    text-align: center;
+}
+
+.typical-customer img {
+    margin: auto;
+}
+
+footer {
+    background-color: #313131;
+    color: lightgray;
+    margin: 0 !important;
+}
+footer ul{
+    font-size:15px !important;
+}
+
+    footer .content {
+        padding: 50px 150px;
+    }
+
+        footer .content .content-right {
+            padding-top: 50px;
+            text-align: right;
+        }
+
+        footer .content .content-left h3, h4 {
+            color: white;
+        }
+
+@media only screen and (max-width: 1000px) {
+
+    /*.info-lazo div#box-img {
+        width: 70%;
+    }*/
+
+
+
+    footer .content {
+        padding: 20px;
+        text-align: center;
+    }
+
+        footer .content .content-right {
+            padding: 10px;
+            text-align: center !important;
+        }
+}
+@media only screen and (max-width: 991px) {
+    .info-lazo img {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .info-lazo img {
+        width: 50%;
+    }
+
+    .typical-customer div#phone-notifi img {
+        width: 70%;
+    }
+
+    /*.info-lazo h2 {
+        font-size: 22px;
+    }
+
+    .info-lazo ul {
+        font-size: 13px;
+    }*/
+}
+
+@media only screen and (max-width: 480px) {
+    .info-lazo img {
+        width: 60%;
+    }
+
+    .typical-customer div#phone-notifi-img {
+        width: 70%;
+    }
+}
+

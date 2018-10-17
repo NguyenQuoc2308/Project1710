@@ -3,3 +3,5 @@
 ################################################################################
 
 /LoginSecure/bin
+/LoginSecure/obj/Debug
+/.vs/LoginSecure/v15

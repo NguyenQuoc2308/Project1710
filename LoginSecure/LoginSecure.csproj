@@ -6531,6 +6531,7 @@
     <Content Include="Content\bower_components\select2\tests\vendor\qunit-1.23.1.css" />
     <Content Include="Content\bower_components\select2\tests\vendor\qunit-1.23.1.js" />
     <Content Include="Content\bower_components\select2\vendor\jquery-2.1.0.js" />
+    <Content Include="Content\css\InfoLazo.css" />
     <Content Include="Content\css\mystyle.css" />
     <Content Include="Content\css\mystyle2.css" />
     <Content Include="Content\dist\css\AdminLTE.css" />
@@ -8796,6 +8797,8 @@
     <Content Include="Views\OcTeam\Index.cshtml" />
     <Content Include="Views\Lazo\Index.cshtml" />
     <Content Include="Views\Shared\lazolayout.cshtml" />
+    <Content Include="Views\OcTeam\InfoLazo.cshtml" />
+    <Content Include="Views\OcTeam\TypicalCustomers.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
