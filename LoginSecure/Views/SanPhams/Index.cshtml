@@ -1,0 +1,54 @@
+﻿@model IEnumerable<LoginSecure.Models.SanPham>
+
+@{
+    ViewBag.Title = "Index";
+}
+<section class="content-header">
+    <h2>Index</h2>
+</section>
+<section class="content">
+    <div class="box">
+        <div class="box-header">
+            <h3 class="box-title">
+                San Pham Table
+            </h3>
+            <p>
+                @Html.ActionLink("Create New", "Create")
+            </p>
+        </div>
+        <div class="box-body">
+            <table class="table table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.TenSP)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.SoLuong)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.TenSP)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.SoLuong)
+                            </td>
+                            <td>
+                                @Html.ActionLink("Edit", "Edit", new { id = item.MaSP }) |
+                                @Html.ActionLink("Details", "Details", new { id = item.MaSP }) |
+                                @Html.ActionLink("Delete", "Delete", new { id = item.MaSP })
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+</section>

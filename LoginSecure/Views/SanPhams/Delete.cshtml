@@ -1,0 +1,45 @@
+﻿@model LoginSecure.Models.SanPham
+
+@{
+    ViewBag.Title = "Delete";
+}
+<section class="content-header">
+    <h2>Delete</h2>
+</section>
+<section class="content">
+    <h3>Are you sure you want to delete this?</h3>
+    <div class="register-box">
+        <h4>SanPham</h4>
+        <hr />
+        <table class="table table-bordered">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.TenSP)
+                </th>
+
+                <td>
+                    @Html.DisplayFor(model => model.TenSP)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.SoLuong)
+                </th>
+
+                <td>
+                    @Html.DisplayFor(model => model.SoLuong)
+                </td>
+            </tr>
+        </table>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <input type="submit" value="Delete" class="btn btn-danger" /> |
+                @Html.ActionLink("Back to List", "Index")
+            </div>
+        }
+    </div>
+</section>

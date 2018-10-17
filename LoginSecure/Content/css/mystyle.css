@@ -1,0 +1,94 @@
+﻿#slideshow {
+    background-image: url("/Content/dist/img/imaga.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#slideshow h1{
+    color:white!important;
+}
+#dangky{
+    background-color:#6182e5;
+    margin-right:0px;
+    margin-left:0px;
+}
+.comment{
+    color:white;
+    margin-bottom:30px !important;
+    font-size:1.3em!important;
+}
+#ykien{
+    margin-top:30px;
+    margin-bottom:20px;
+}
+#bgcolo h1,h4 {
+    color:white !important;
+}
+#slideshow h2{
+    color:#216969 !important;
+    margin-top:20px!important;
+}
+#dk h3{
+    color:black !important;
+}
+#gplay,#apple,#window{
+    font-size:3em;
+    padding-left:0px;
+    padding-right:0px;
+}
+#gplaytext, #appletext, #windowtext {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#btn3 h5{
+    color:white !important;
+}
+#dk{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+#dk h1,h4{
+    color:white !important;
+}
+#dk2{
+    margin-top:20px;
+}
+#dowload {
+    background-image: url("/Content/dist/img/dowload.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#bgcolo {
+    background-color: #000000;
+    opacity: 0.7;
+    height: 550px;
+}
+#app{
+    margin-top:100px;
+}
+#btn3{
+    margin-top:50px;
+}
+#btn3 div#google-play{
+    text-align:right;
+}
+#btn3 div#app-store {
+    text-align: center;
+}
+#btn3 div#win-store {
+    text-align: left;
+}
+@media only screen and (max-width: 767px){
+    #btn3 div#google-play, div#app-store, div#win-store {
+        text-align: center !important;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+

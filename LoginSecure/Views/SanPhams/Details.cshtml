@@ -1,0 +1,38 @@
+﻿@model LoginSecure.Models.SanPham
+
+@{
+    ViewBag.Title = "Details";
+}
+<section class="content-header">
+    <h2>Details</h2>
+</section>
+<section class="content">
+    <div class="login-box">
+        <h4>SanPham</h4>
+        <hr />
+        <table class="table table-bordered">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.TenSP)
+                </th>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.SoLuong)
+                </th>
+            </tr>
+            <tr>
+                <td>    
+                    @Html.DisplayFor(model => model.TenSP)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(model => model.SoLuong)
+                </td>
+            </tr>   
+        </table>
+    </div>
+</section>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MaSP }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
