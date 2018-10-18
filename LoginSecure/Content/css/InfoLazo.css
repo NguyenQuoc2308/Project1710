@@ -26,7 +26,6 @@
 
 div.typical-customer {
     margin-top: 5%;
-    font-size:15px;
 }
 
 .typical-customer div#phone-notifi {
@@ -41,9 +40,6 @@ footer {
     background-color: #313131;
     color: lightgray;
     margin: 0 !important;
-}
-footer ul{
-    font-size:15px !important;
 }
 
     footer .content {
