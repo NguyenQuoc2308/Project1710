@@ -6531,6 +6531,7 @@
     <Content Include="Content\bower_components\select2\tests\vendor\qunit-1.23.1.css" />
     <Content Include="Content\bower_components\select2\tests\vendor\qunit-1.23.1.js" />
     <Content Include="Content\bower_components\select2\vendor\jquery-2.1.0.js" />
+    <Content Include="Content\css\InfoLazo.css" />
     <Content Include="Content\css\mystyle.css" />
     <Content Include="Content\css\mystyle2.css" />
     <Content Include="Content\dist\css\AdminLTE.css" />
@@ -6585,8 +6586,18 @@
     <Content Include="Content\dist\img\dowload.png" />
     <Content Include="Content\dist\img\icons.png" />
     <Content Include="Content\dist\img\imaga.png" />
+    <Content Include="Content\dist\img\page-1_0003s_0000_Layer-10.png" />
+    <Content Include="Content\dist\img\page-1_0003s_0001_Layer-8.png" />
+    <Content Include="Content\dist\img\page-1_0003s_0002_Layer-9.png" />
     <Content Include="Content\dist\img\page-1_0004s_0000_testimonial-bg.png" />
     <Content Include="Content\dist\img\page-1_0008_bg.png" />
+    <Content Include="Content\dist\img\page-1_0011_fb.png" />
+    <Content Include="Content\dist\img\page-1_0012_Twitter.png" />
+    <Content Include="Content\dist\img\page-1_0013_pinterest.png" />
+    <Content Include="Content\dist\img\page-1_0014_instar.png" />
+    <Content Include="Content\dist\img\page-1_0016_Layer-25.png" />
+    <Content Include="Content\dist\img\page-1_0021_3.1-Notification.png" />
+    <Content Include="Content\dist\img\page-1_0023_lộ-trình-của-tôi-pic.png" />
     <Content Include="Content\dist\img\photo1.png" />
     <Content Include="Content\dist\img\photo2.png" />
     <Content Include="Content\dist\img\photo3.jpg" />
@@ -8786,6 +8797,8 @@
     <Content Include="Views\OcTeam\Index.cshtml" />
     <Content Include="Views\Lazo\Index.cshtml" />
     <Content Include="Views\Shared\lazolayout.cshtml" />
+    <Content Include="Views\OcTeam\InfoLazo.cshtml" />
+    <Content Include="Views\OcTeam\TypicalCustomers.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
